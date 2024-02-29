@@ -1,0 +1,29 @@
+{
+    "name": "sordis/php-dreamkas",
+    "description": "Фискализация чека для Дримкас-Ф на php",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "sordis\\Dreamkas\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "sordis\\Dreamkas\\tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandr Peters",
+            "email": "alexandr.peters@gmail.com"
+        }
+    ]
+}
